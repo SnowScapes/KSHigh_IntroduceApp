@@ -18,7 +18,7 @@
 <figure class="align-left">
   <img src="/imgs/Main.png" width="300" height="550">
 </figure>
-
+메인화면
 
 ---
 ### 특징    
