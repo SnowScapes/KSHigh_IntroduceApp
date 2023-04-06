@@ -1,7 +1,11 @@
 # SmileGate 기업 설명 App
 
 ### 개발사양    
-![spec](/imgs/Spec.JPG)
+![spec](/imgs/Spec.JPG)    
+
+### 개발환경
+![Os](/imgs/OS.JPG)    
+
 ---    
 ### 사용된 라이브러리    
 
