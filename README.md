@@ -22,9 +22,9 @@
 <img src="/imgs/Introduce.png" width="300" height="550">    
 
 > 3. 사진화면
-<img src="/imgs/ImageJS.png" width="300" height="550">
-<img src="/imgs/ImageJS2.png" width="300" height="550">
-<img src="/imgs/ImageJS3.png" width="300" height="550">    
+<img src="/imgs/Image_JS.png" width="300" height="550">
+<img src="/imgs/Image_JS2.png" width="300" height="550">
+<img src="/imgs/Image_JS3.png" width="300" height="550">    
 
 > 4. 영상화면
 <img src="/imgs/movie.png" width="300" height="550">    
