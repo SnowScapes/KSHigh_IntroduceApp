@@ -15,7 +15,7 @@
 
 ---
 ### 실행 스크린샷
-![main](imgs/Main.png){: .align-left} 메인 화면
+![main](imgs/Main.png){: width="100" height="100"} 메인 화면
 
 ---
 ### 특징    
