@@ -19,8 +19,23 @@
 <img src="/imgs/Main.png" width="300" height="550">    
 
 > 2. 소개화면
-<img src="/imgs/Introduce.png" width="300" height="550">
----
+<img src="/imgs/Introduce.png" width="300" height="550">    
+
+> 3. 사진화면
+<img src="/imgs/ImageJS.png" width="300" height="550">
+<img src="/imgs/ImageJS2.png" width="300" height="550">
+<img src="/imgs/ImageJS3.png" width="300" height="550">    
+
+> 4. 영상화면
+<img src="/imgs/movie.png" width="300" height="550">    
+
+> 5. 차트화면
+<img src="/imgs/chart.png" width="300" height="550">    
+
+> 6. 브라우저 화면
+<img src="/imgs/plugin.png" width="300" height="550">    
+
+---    
 ### 특징    
 
 * iframe을 이용한 구글지도,유튜브 영 적용
