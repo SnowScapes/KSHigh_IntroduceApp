@@ -16,10 +16,9 @@
 ---
 ### 실행 스크린샷
 1. 메인화면
-<figure class="align-left">
-  <img src="/imgs/Main.png" width="300" height="550">
-</figure>
-
+<img src="/imgs/Main.png" width="300" height="550">
+2. 소개화면
+<img src="/imgs/Introduce.png" width="300" height="550">
 ---
 ### 특징    
 
