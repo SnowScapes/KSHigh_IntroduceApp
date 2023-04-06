@@ -15,7 +15,9 @@
 
 ---
 ### 실행 스크린샷
-<img src="/imgs/Main.png" width="300" height="550">
+<figure class="align-left">
+  <img src="/imgs/Main.png" width="300" height="550">
+</figure>
 
 ---
 ### 특징    
