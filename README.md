@@ -2,7 +2,7 @@
 
 ### 개발사양    
 ![spec](/imgs/Spec.JPG)    
-
+---
 ### 개발환경
 ![Os](/imgs/OS.JPG)    
 
