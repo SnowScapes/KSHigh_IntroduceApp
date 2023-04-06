@@ -1,0 +1,154 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>Smilegate</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="img/logo.png" style="width:351px; height:108px">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">스마일게이트 소개</a></li>
+				<li><a href="#chart">스마일게이트 성장</a></li>
+				<li><a href="#movie" data-rel="dialog">스마일게이트 영상</a></li>
+				<li><a href="#gallery">스마일게이트 사진</a></li>
+				<li><button onclick="doAction()">스마일게이트 홈페이지</button>
+				<script>
+					function doAction() {
+						var url = 'https://m.smilegate.com/ko/';
+						var target = '_blank';
+						var options = "location = yes";
+						var ref = cordova.InAppBrowser.open(url, target, options);
+					}
+				</script></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1></h1>
+		</div>
+	</div>
+	<script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>Smilegate 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="img/logo2.jpg" style="width:300px; height:300px">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>소개</h3>
+					<p>스마일게이트 그룹은 지주 회사 스마일게이트 홀딩스를 중심으로 10개의 계열사 채제를 갖춘 기업 집단이다.</p>
+					<p>국내 Top5 게임회사로 202년 연 매출 약 1조 73억원을 기록하며 최초로 1조 클럽에 가입하였다.</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>주소</h3>
+					<p>경기도 성남시 분당구 판교로 344</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6339.461097689121!2d127.1058619182926!3d37.396204061461546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca7f12917b379%3A0xfcbf3a2429692d71!2z7Iqk66eI7J286rKM7J207Yq4IOuplOqwgO2PrO2KuA!5e0!3m2!1sko!2skr!4v1680795859953!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div data-role="collapsible" >
+					<h3>연락처</h3>
+					<p>전화 031-600-8200</p>
+					<p>팩스 031-600-8287</p>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1></h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>스마일게이트 영상</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-a">2022 스마일게이트 채용연계형 인턴십</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/uwYljE8gNXY"></iframe></li><br/>
+			<div class="ui-bar ui-bar-a">2022 스마일게이트 개발캠프의 모든 것</div><br/>
+			<li><iframe width="100%" height="240" src="https://www.youtube.com/embed/Mm8HgzLtzwA"></iframe></li>
+		</div>
+		<div data-role="footer" data-theme="b">
+		</div>
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="b">
+		<div data-role="header" data-position="fixed"  data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>스마일게이트 갤러리</h1>
+		</div>
+		<div>
+			<img class="slide1" src="img/1.jpg" style="width:384px; height:152px">
+			<img class="slide1" src="img/2.jpg" style="width:384px; height:152px">
+			<img class="slide1" src="img/3.jpg" style="width:384px; height:152px">
+		</div>
+		<script src="js/slide.js"></script>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>독도사랑_홍길동</h1>
+		</div>		
+	</div>
+	<div data-role="page" id="chart"  data-theme="b">
+			<div data-role="header" data-position="fixed"  data-theme="b">
+				<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+				<h1>2017~2021 스마일게이트 실적</h1>
+			</div>
+			<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+			<script>
+				const xValues = [2017,2018,2019,2020,2021];
+
+				new Chart("myChart", {
+  					type: "line",
+  					data: {
+    					labels: xValues,
+    					datasets: [{ 
+      						data: [1560,1884,2111,3155,5142],
+      						borderColor: "red",
+      						fill: false
+    					}, { 
+      						data: [2335,2909,2894,3646,5930],
+      						borderColor: "green",
+      						fill: false
+    					}, { 
+      						data: [5946,7732,8873,10072,14345],
+      						borderColor: "blue",
+      						fill: false
+    					}]
+  					},
+  					options: {
+    					legend: {display: false}
+  					}
+				});
+			</script>
+
+			<div data-role="footer" data-position="fixed" data-theme="b">
+				<h1></h1>
+			</div>		
+		</div>
+</div>	
+</body>
+</html>
