@@ -15,7 +15,7 @@
 
 ---
 ### 실행 스크린샷
-![main](imgs/Main.png){: width="100" height="100"}
+<img src="/imgs/Main.png" width="300" height="300">
 
 ---
 ### 특징    
