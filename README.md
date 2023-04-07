@@ -45,9 +45,6 @@
 
 ---
 ### Reference
-[이미지 자동넘김 처리](https://whitekeyboard.tistory.com/42)
+[이미지 자동넘김 처리](https://whitekeyboard.tistory.com/42)    
 [InAppBrowser](https://cordova.apache.org/docs/en/10.x/reference/cordova-plugin-inappbrowser/)
 
-* js를 이용한 자동 이미지 슬라이드
-* js를 이용한 자동 이미지 슬라이드미
-* js를 이용한 자동 이미지 슬라이드
